@@ -12,5 +12,5 @@ end
 
 # Replace index.html file.
 template '/var/www/html/index.html' do
-  source "stg/index.html"
+  source "index.html"
 end
