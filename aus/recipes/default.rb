@@ -11,6 +11,6 @@ template '/etc/apache2/apache2.conf' do
 end
 
 # Replace index.html file.
-template '/var/www/html/' do
+template '/var/www/html/index.html' do
   source "stg/index.html"
 end
